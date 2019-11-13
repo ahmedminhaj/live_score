@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textColor="#326232"
+            android:layout_marginTop="70dp"
+            android:textSize="25dp"
+            android:text="Live Score"/>
+
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="200dp"
+            android:hint="email"/>
+
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:hint="password"/>
+
+        <CheckBox
+            android:id="@+id/show_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"
+            android:textColor="#326232" />
+
+        <Button
+            android:id="@+id/button_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:textColor="#F9FBF9"
+            android:background="#326232"
+            android:text="Log In"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
